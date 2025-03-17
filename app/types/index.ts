@@ -1,0 +1,25 @@
+export type Drink = {
+  idDrink: string;
+  strDrink: string;
+  strDrinkAlternate: any;
+  strTags: string;
+  strVideo: any;
+  strCategory: string;
+  strIBA: string;
+  strAlcoholic: string;
+  strGlass: string;
+  strInstructions: string;
+  strInstructionsES: string;
+  strInstructionsDE: string;
+  strInstructionsFR: string;
+  strInstructionsIT: string;
+  'strInstructionsZH-HANS': any;
+  'strInstructionsZH-HANT': any;
+  strDrinkThumb: string;
+  [key: ` strIngredient1${number}`]: string | null;
+  [key: ` strMeasure${number}`]: string | null;
+  strImageSource: string;
+  strImageAttribution: string;
+  strCreativeCommonsConfirmed: string;
+  dateModified: string;
+};
